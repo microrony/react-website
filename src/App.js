@@ -1,9 +1,11 @@
 import './styles/style.scss';
+import Navbar from './components/Navbar'
+
 
 function App() {
   return (
     <div>
-      Hello World
+      <Navbar />
     </div>
   );
 }
